@@ -82,7 +82,7 @@ body{
 /* ================= HERO ================= */
 .hero{
     height:100vh;
-    background:url('../img/fondo.jpg') center/cover no-repeat;
+    background:url('../img/fondo.png') center/cover no-repeat;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -260,7 +260,7 @@ body{
     overflow:hidden;
 
     /* 👇 UNA SOLA IMAGEN COMPLETA */
-    background:url('../img/comparativa.jpg') center/cover no-repeat;
+    background:url('../img/comparativa.png') center/cover no-repeat;
 }
 
 /* OSCURECER PARA QUE SE LEA */
