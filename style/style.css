@@ -530,6 +530,118 @@ body{
 .equipo-container .equipo-card:hover{
     opacity:1;
 }
+/* ================= RESULTAD ================= */
+.impacto{
+    padding:140px 20px;
+    text-align:center;
+    position:relative;
+    overflow:hidden;
+    background:#030814;
+}
+
+/* GLOW DE FONDO */
+.impacto::before{
+    content:"";
+    position:absolute;
+    width:500px;
+    height:500px;
+    background:radial-gradient(circle,#00ff9c33,transparent);
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    filter:blur(100px);
+    z-index:0;
+}
+
+/* TEXTO */
+.impacto h2{
+    position:relative;
+    z-index:2;
+    font-size:2.8rem;
+}
+
+.impacto-sub{
+    color:#aaa;
+    margin-bottom:80px;
+    position:relative;
+    z-index:2;
+}
+
+/* CONTENEDOR CENTRAL */
+.impacto-center{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:40px;
+    position:relative;
+    z-index:2;
+}
+
+/* ITEM */
+.impacto-item{
+    text-align:center;
+}
+
+.impacto-item h3{
+    font-size:3.5rem;
+    font-weight:bold;
+    background:linear-gradient(135deg,#00ff9c,#00c853);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.impacto-item span{
+    display:block;
+    color:#ccc;
+    margin-top:10px;
+}
+
+/* LINEA */
+.impacto-line{
+    width:100px;
+    height:2px;
+    background:linear-gradient(to right,#00ff9c,transparent);
+    position:relative;
+    overflow:hidden;
+}
+
+/* ANIMACION LINEA */
+.impacto-line::after{
+    content:"";
+    position:absolute;
+    width:50px;
+    height:100%;
+    background:#00ff9c;
+    animation:flow 2s linear infinite;
+}
+
+@keyframes flow{
+    from{transform:translateX(-100%);}
+    to{transform:translateX(200%);}
+}
+
+/* MENSAJES */
+.impacto-mensajes{
+    margin-top:80px;
+}
+
+.msg{
+    margin:15px auto;
+    padding:18px;
+    max-width:600px;
+    border-radius:12px;
+    background:rgba(255,255,255,0.05);
+    transition:0.3s;
+}
+
+.msg.ok{
+    color:#00ff9c;
+}
+
+.msg:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 25px rgba(0,255,150,0.2);
+}
 /* ================= PSICO ================= */
 .psico{
     padding:60px 20px;
