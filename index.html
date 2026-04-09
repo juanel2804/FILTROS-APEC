@@ -1,288 +1,295 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Filtros APEC</title>
 
-<link rel="stylesheet" href="style/style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtros APEC</title>
+
+    <link rel="stylesheet" href="style/style.css">
 
 </head>
 
 <body>
 
-<!-- NAV -->
-<nav class="nav">
-    <div class="nav-container">
+    <!-- NAV -->
+    <nav class="nav">
+        <div class="menu-toggle" id="menuToggle">
 
-        <h2 class="logo">APEC</h2>
+            <div class="nav-container">
 
-        <div class="menu">
-            <a href="#Problema" class="link">Problema</a>
-            <a href="#comparativa" class="link">Comparativa</a>
-            <a href="#tecnologia" class="link">Tecnología</a>
-            <a href="#equipo" class="link">Equipo</a>
-            <a href="#RESULTADO" class="link">Resultados</a>
+                <h2 class="logo">APEC</h2>
+
+                <div class="menu">
+                    <a href="#Problema" class="link">Problema</a>
+                    <a href="#comparativa" class="link">Comparativa</a>
+                    <a href="#tecnologia" class="link">Tecnología</a>
+                    <a href="#equipo" class="link">Equipo</a>
+                    <a href="#RESULTADO" class="link">Resultados</a>
+                </div>
+
+                <div class="nav-cta">
+                    <a href="TU_LINK_MERCADO_LIBRE" class="btn-nav">Comprar</a>
+                </div>
+
+            </div>
         </div>
 
-        <div class="nav-cta">
-            <a href="TU_LINK_MERCADO_LIBRE" class="btn-nav">Comprar</a>
+        
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <div class="overlay"></div>
+
+        <div class="hero-content">
+            <h1 class="fade">Agua purificada segura</h1>
+            <p class="fade delay">
+                Eliminación de contaminantes físicos, químicos y microbiológicos
+            </p>
+            <a href="TU_LINK_MERCADO_LIBRE" class="btn fade delay2">Comprar ahora</a>
         </div>
 
-    </div>
-</nav>
+    </section>
 
-<!-- HERO -->
-<section class="hero">
+    <!-- PROBLEMA -->
+    <section id="Problema" class="problema">
 
-    <div class="overlay"></div>
-
-    <div class="hero-content">
-        <h1 class="fade">Agua purificada segura</h1>
-        <p class="fade delay">
-            Eliminación de contaminantes físicos, químicos y microbiológicos
+        <h2 class="problema-title fade">El problema del agua</h2>
+        <p class="problema-sub fade delay">
+            Millones de personas consumen agua contaminada sin saberlo.
         </p>
-        <a href="TU_LINK_MERCADO_LIBRE" class="btn fade delay2">Comprar ahora</a>
-    </div>
 
-</section>
+        <div class="problema-container">
 
-<!-- PROBLEMA -->
-<section id="Problema" class="problema">
-
-    <h2 class="problema-title fade">El problema del agua</h2>
-    <p class="problema-sub fade delay">
-        Millones de personas consumen agua contaminada sin saberlo.
-    </p>
-
-    <div class="problema-container">
-
-        <!-- CARD 1 -->
-        <div class="problema-card fade">
-            <div class="card-img">
-                <img src="img/contaminacion.jpg" alt="Contaminación">
+            <!-- CARD 1 -->
+            <div class="problema-card fade">
+                <div class="card-img">
+                    <img src="img/contaminacion.jpg" alt="Contaminación">
+                </div>
+                <div class="card-info">
+                    <h3>Contaminación</h3>
+                    <p>Presencia de metales pesados, bacterias y químicos que afectan la salud.</p>
+                </div>
             </div>
-            <div class="card-info">
-                <h3>Contaminación</h3>
-                <p>Presencia de metales pesados, bacterias y químicos que afectan la salud.</p>
+
+            <!-- CARD 2 -->
+            <div class="problema-card fade delay">
+                <div class="card-img">
+                    <img src="img/sobreexplotacion.jpg" alt="Sobreexplotación">
+                </div>
+                <div class="card-info">
+                    <h3>Sobreexplotación</h3>
+                    <p>Fuentes de agua deterioradas que reducen la disponibilidad de agua limpia.</p>
+                </div>
             </div>
+
+            <!-- CARD 3 -->
+            <div class="problema-card fade delay2">
+                <div class="card-img">
+                    <img src="img/estres.jpg" alt="Estrés hídrico">
+                </div>
+                <div class="card-info">
+                    <h3>Estrés hídrico</h3>
+                    <p>Escasez de agua potable para consumo humano en muchas zonas.</p>
+                </div>
+            </div>
+
         </div>
 
-        <!-- CARD 2 -->
-        <div class="problema-card fade delay">
-            <div class="card-img">
-                <img src="img/sobreexplotacion.jpg" alt="Sobreexplotación">
-            </div>
-            <div class="card-info">
-                <h3>Sobreexplotación</h3>
-                <p>Fuentes de agua deterioradas que reducen la disponibilidad de agua limpia.</p>
-            </div>
-        </div>
+    </section>
+    <!-- comparativa -->
+    <section id="comparativa" class="comparativa-full">
 
-        <!-- CARD 3 -->
-        <div class="problema-card fade delay2">
-            <div class="card-img">
-                <img src="img/estres.jpg" alt="Estrés hídrico">
-            </div>
-            <div class="card-info">
-                <h3>Estrés hídrico</h3>
-                <p>Escasez de agua potable para consumo humano en muchas zonas.</p>
-            </div>
-        </div>
+        <div class="comparativa-overlay"></div>
 
-    </div>
+        <div class="comparativa-content">
 
-</section>
-<!-- comparativa -->
-<section id="comparativa" class="comparativa-full">
+            <h2 class="fade">Antes vs Después</h2>
 
-    <div class="comparativa-overlay"></div>
+            <div class="comparativa-grid">
 
-    <div class="comparativa-content">
+                <!-- ANTES -->
+                <div class="lado before fade">
+                    <span class="badge bad">✖ Riesgo</span>
 
-        <h2 class="fade">Antes vs Después</h2>
+                    <h3>Sin filtración</h3>
 
-        <div class="comparativa-grid">
+                    <ul>
+                        <li>Agua contaminada</li>
+                        <li>Riesgo para la salud</li>
+                        <li>Mal sabor y olor</li>
+                    </ul>
+                </div>
 
-            <!-- ANTES -->
-            <div class="lado before fade">
-                <span class="badge bad">✖ Riesgo</span>
+                <!-- DESPUÉS -->
+                <div class="lado after fade delay">
 
-                <h3>Sin filtración</h3>
+                    <span class="badge good">✔ Solución</span>
 
-                <ul>
-                    <li>Agua contaminada</li>
-                    <li>Riesgo para la salud</li>
-                    <li>Mal sabor y olor</li>
-                </ul>
-            </div>
+                    <h3>Con APEC</h3>
 
-            <!-- DESPUÉS -->
-            <div class="lado after fade delay">
+                    <ul>
+                        <li>Agua purificada</li>
+                        <li>Segura para consumo</li>
+                        <li>Lista al instante</li>
+                    </ul>
 
-                <span class="badge good">✔ Solución</span>
+                    <div class="producto">
+                        <img src="img/producto1.png" alt="">
+                        <img src="img/producto2.png" alt="">
+                    </div>
 
-                <h3>Con APEC</h3>
-
-                <ul>
-                    <li>Agua purificada</li>
-                    <li>Segura para consumo</li>
-                    <li>Lista al instante</li>
-                </ul>
-
-                <div class="producto">
-                    <img src="img/producto1.png" alt="">
-                    <img src="img/producto2.png" alt="">
                 </div>
 
             </div>
 
         </div>
 
-    </div>
+    </section>
 
-</section>
+    <!-- TECNOLOGÍA -->
+    <section id="tecnologia" class="tech-section">
 
-<!-- TECNOLOGÍA -->
-<section id="tecnologia" class="tech-section">
+        <h2 class="tech-title">Tecnología de filtración</h2>
 
-    <h2 class="tech-title">Tecnología de filtración</h2>
+        <div class="tech-grid">
 
-    <div class="tech-grid">
-
-        <div class="tech-card">
-            <img src="img/prefiltracion.jpg" alt="">
-            <div class="tech-overlay">
-                <h3>Prefiltración</h3>
-                <p>Remoción de sedimentos (1–5 micras)</p>
+            <div class="tech-card">
+                <img src="img/prefiltracion.jpg" alt="">
+                <div class="tech-overlay">
+                    <h3>Prefiltración</h3>
+                    <p>Remoción de sedimentos (1–5 micras)</p>
+                </div>
             </div>
-        </div>
 
-        <div class="tech-card">
-            <img src="img/carbon.jpg" alt="">
-            <div class="tech-overlay">
-                <h3>Carbón activado</h3>
-                <p>Elimina compuestos orgánicos</p>
+            <div class="tech-card">
+                <img src="img/carbon.jpg" alt="">
+                <div class="tech-overlay">
+                    <h3>Carbón activado</h3>
+                    <p>Elimina compuestos orgánicos</p>
+                </div>
             </div>
-        </div>
 
-        <div class="tech-card">
-            <img src="img/osmosis.jpg" alt="">
-            <div class="tech-overlay">
-                <h3>Ósmosis inversa</h3>
-                <p>Elimina metales pesados y contaminantes</p>
+            <div class="tech-card">
+                <img src="img/osmosis.jpg" alt="">
+                <div class="tech-overlay">
+                    <h3>Ósmosis inversa</h3>
+                    <p>Elimina metales pesados y contaminantes</p>
+                </div>
             </div>
-        </div>
 
-        <div class="tech-card">
-            <img src="img/post.jpg" alt="">
-            <div class="tech-overlay">
-                <h3>Post-tratamiento</h3>
-                <p>Mejora la calidad del agua</p>
+            <div class="tech-card">
+                <img src="img/post.jpg" alt="">
+                <div class="tech-overlay">
+                    <h3>Post-tratamiento</h3>
+                    <p>Mejora la calidad del agua</p>
+                </div>
             </div>
+
         </div>
 
-    </div>
+    </section>
 
-</section>
+    <!-- EQUIPO -->
+    <section id="equipo" class="equipo-pro">
 
-<!-- EQUIPO -->
-<section id="equipo" class="equipo-pro">
+        <h2 class="equipo-title fade">Equipo</h2>
 
-    <h2 class="equipo-title fade">Equipo</h2>
+        <div class="equipo-container">
 
-    <div class="equipo-container">
-
-        <!-- CARD 1 -->
-        <div class="equipo-card fade">
-            <div class="equipo-img">
-                <img src="img/resistencia.jpg" alt="">
+            <!-- CARD 1 -->
+            <div class="equipo-card fade">
+                <div class="equipo-img">
+                    <img src="img/resistencia.jpg" alt="">
+                </div>
+                <div class="equipo-info">
+                    <h3>Alta resistencia</h3>
+                    <p>Fabricado en ABS reforzado para uso intensivo.</p>
+                </div>
             </div>
-            <div class="equipo-info">
-                <h3>Alta resistencia</h3>
-                <p>Fabricado en ABS reforzado para uso intensivo.</p>
+
+            <!-- CARD 2 -->
+            <div class="equipo-card fade delay">
+                <div class="equipo-img">
+                    <img src="img/multifuncional.jpg" alt="">
+                </div>
+                <div class="equipo-info">
+                    <h3>Multifuncional</h3>
+                    <p>Uso para personas, mascotas y llenado de botellas.</p>
+                </div>
             </div>
-        </div>
 
-        <!-- CARD 2 -->
-        <div class="equipo-card fade delay">
-            <div class="equipo-img">
-                <img src="img/multifuncional.jpg" alt="">
+            <!-- CARD 3 -->
+            <div class="equipo-card fade delay2">
+                <div class="equipo-img">
+                    <img src="img/aplicaciones.jpg" alt="">
+                </div>
+                <div class="equipo-info">
+                    <h3>Aplicaciones</h3>
+                    <p>Ideal para oficinas, parques y espacios públicos.</p>
+                </div>
             </div>
-            <div class="equipo-info">
-                <h3>Multifuncional</h3>
-                <p>Uso para personas, mascotas y llenado de botellas.</p>
+
+        </div>
+
+    </section>
+
+    <!-- RESULTADOS -->
+    <section id="RESULTADO" class="impacto">
+
+        <h2 class="fade">Resultados comprobados</h2>
+        <p class="impacto-sub fade delay">
+            Tecnología que transforma la calidad del agua en segundos
+        </p>
+
+        <!-- BLOQUE CENTRAL -->
+        <div class="impacto-center">
+
+            <div class="impacto-item fade">
+                <h3>99.98%</h3>
+                <span>Eficiencia total</span>
             </div>
-        </div>
 
-        <!-- CARD 3 -->
-        <div class="equipo-card fade delay2">
-            <div class="equipo-img">
-                <img src="img/aplicaciones.jpg" alt="">
+            <div class="impacto-line"></div>
+
+            <div class="impacto-item fade delay">
+                <h3>26M → 660</h3>
+                <span>Reducción bacteriana</span>
             </div>
-            <div class="equipo-info">
-                <h3>Aplicaciones</h3>
-                <p>Ideal para oficinas, parques y espacios públicos.</p>
+
+        </div>
+
+        <!-- MENSAJES -->
+        <div class="impacto-mensajes">
+
+            <div class="msg fade delay2">
+                ⚠ Más de <strong>100 personas</strong> ya lo usan diariamente
             </div>
+
+            <div class="msg ok fade delay2">
+                ✔ Sistema confiable para espacios públicos y privados
+            </div>
+
         </div>
 
-    </div>
+    </section>
+    <!-- CTA -->
+    <section class="cta-strong">
 
-</section>
+        <h2>Instala agua segura hoy</h2>
 
-<!-- RESULTADOS -->
-<section id="RESULTADO" class="impacto">
+        <p>Evita riesgos y mejora la calidad del agua en tu espacio</p>
 
-    <h2 class="fade">Resultados comprobados</h2>
-    <p class="impacto-sub fade delay">
-        Tecnología que transforma la calidad del agua en segundos
-    </p>
+        <a href="TU_LINK_MERCADO_LIBRE" class="btn-strong">
+            Comprar ahora
+        </a>
 
-    <!-- BLOQUE CENTRAL -->
-    <div class="impacto-center">
+    </section>
 
-        <div class="impacto-item fade">
-            <h3>99.98%</h3>
-            <span>Eficiencia total</span>
-        </div>
-
-        <div class="impacto-line"></div>
-
-        <div class="impacto-item fade delay">
-            <h3>26M → 660</h3>
-            <span>Reducción bacteriana</span>
-        </div>
-
-    </div>
-
-    <!-- MENSAJES -->
-    <div class="impacto-mensajes">
-
-        <div class="msg fade delay2">
-            ⚠ Más de <strong>100 personas</strong> ya lo usan diariamente
-        </div>
-
-        <div class="msg ok fade delay2">
-            ✔ Sistema confiable para espacios públicos y privados
-        </div>
-
-    </div>
-
-</section>
-<!-- CTA -->
-<section class="cta-strong">
-
-    <h2>Instala agua segura hoy</h2>
-
-    <p>Evita riesgos y mejora la calidad del agua en tu espacio</p>
-
-    <a href="TU_LINK_MERCADO_LIBRE" class="btn-strong">
-        Comprar ahora
-    </a>
-
-</section>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
+
 </html>

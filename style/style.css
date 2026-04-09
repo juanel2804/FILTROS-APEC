@@ -726,3 +726,47 @@ html{
         font-size:10px;
     }
 }
+
+/* ================= NAV MOBILE PRO ================= */
+
+.menu-toggle{
+    display:none;
+    font-size:1.8rem;
+    cursor:pointer;
+    color:white;
+}
+
+/* MOBILE */
+@media (max-width:768px){
+
+    .menu{
+        position:absolute;
+        top:70px;
+        left:0;
+        width:100%;
+        flex-direction:column;
+        align-items:center;
+        gap:20px;
+        padding:25px 0;
+
+        background:rgba(5,11,24,0.95);
+        backdrop-filter:blur(10px);
+
+        transform:translateY(-150%);
+        transition:0.4s ease;
+    }
+
+    .menu.active{
+        transform:translateY(0);
+    }
+
+    .menu-toggle{
+        display:block;
+    }
+
+    /* opcional: ocultar botón comprar en móvil si estorba */
+    .nav-cta{
+        display:none;
+    }
+
+}
