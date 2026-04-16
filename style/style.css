@@ -770,3 +770,64 @@ html{
     }
 
 }
+/* ================= CONTACTO PRO ================= */
+
+.contacto{
+    padding:120px 20px;
+    text-align:center;
+    background: radial-gradient(circle at top, #02050d, #000);
+}
+
+.contacto h2{
+    font-size:2.8rem;
+    margin-bottom:10px;
+}
+
+.contacto-sub{
+    color:#aaa;
+    margin-bottom:60px;
+}
+
+.contacto-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+    max-width:900px;
+    margin:auto;
+}
+
+/* CARDS */
+.contacto-card{
+    background:rgba(255,255,255,0.04);
+    padding:30px;
+    border-radius:20px;
+    border:1px solid rgba(255,255,255,0.08);
+    backdrop-filter:blur(10px);
+    font-size:1.2rem;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    transition:0.3s;
+}
+
+.contacto-card span{
+    font-size:0.9rem;
+    color:#ccc;
+}
+
+/* HOVER */
+.contacto-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 30px rgba(0,255,150,0.2);
+}
+
+/* WHATSAPP PRO */
+.contacto-card.whatsapp{
+    background:linear-gradient(135deg,#00ff9c,#00c853);
+    color:black;
+    font-weight:bold;
+}
+
+.contacto-card.whatsapp span{
+    color:#003d1f;
+}
